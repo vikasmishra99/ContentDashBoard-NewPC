@@ -4,10 +4,10 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Content Details : Daily New Vectors</title>
+    <title>Daily Color Pallets UI</title>
     @include('live.includes.top-scripts')
 </head>
-<body >
+<body>
 <div class="page">
     @include('live.coloringbook.includes.side-menu')
     <div class="page-wrapper">
@@ -17,14 +17,16 @@
                 <div class="row g-2 align-items-center">
                     <div class="col">
                         <h2 class="page-title">
-                           Test Page
+                            DailyColor Color Pallets
                         </h2>
                     </div>
+
                 </div>
             </div>
         </div>
         <div class="page-body">
             <div class="container-xl">
+                @include('live.color-pallets.includes.daily-color-pallets')
             </div>
         </div>
         @include('live.includes.footer')

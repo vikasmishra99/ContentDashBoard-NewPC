@@ -13,7 +13,7 @@ use App\Http\Controllers\DashboardController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('test',[DashboardController::class, 'test'])->name('live.test');
+Route::get('/test',[DashboardController::class, 'test'])->name('live.test');
 
 Route::get('index',[DashboardController::class, 'index'])->name('live.index');
 Route::get('/',[DashboardController::class, 'main_sign_in'])->name('live.authentication.sign-in');
@@ -45,6 +45,12 @@ Route::get('/coloring-book-explore-categories-content-packs',[DashboardControlle
 Route::get('/coloring-book-explore-categories-content-pack-details',[DashboardController::class, 'coloring_book_explore_categories_content_pack_details'])->name('live.coloringbook.dashboard.explore.explore-categories-content-pack-details');
 Route::get('/coloring-book-explore-categories-content-details',[DashboardController::class, 'coloring_book_explore_categories_content_details'])->name('live.coloringbook.dashboard.explore.explore-categories-content-details');
 
+
+Route::get('/color-pallet-dashboard',[DashboardController::class, 'color_pallet_dashboard'])->name('live.color-pallets.color-pallets-dashboard');
+Route::get('/all-pallets',[DashboardController::class, 'all_pallets'])->name('live.color-pallets.all-pallets');
+Route::get('/solid-pallet-ui',[DashboardController::class, 'solid_pallet_ui'])->name('live.color-pallets.solid-pallet-ui');
+Route::get('/daily-color-pallet-ui',[DashboardController::class, 'daily_color_pallet_ui'])->name('live.color-pallets.dailycolor-pallet-ui');
+Route::get('/create-pallet',[DashboardController::class, 'create_pallet'])->name('live.color-pallets.create-pallet');
 
 Route::get('/changelog',[DashboardController::class, 'changelog'])->name('live.pages.changelog');
 Route::get('/changelog_app',[DashboardController::class, 'changelog_app'])->name('live.pages.changelog_app');

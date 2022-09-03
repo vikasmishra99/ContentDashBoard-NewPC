@@ -42,6 +42,13 @@ class DashboardController extends Controller
     public function coloring_book_explore_categories_content_pack_details(){return view('live.coloringbook.dashboard.explore.explore-categories-content-pack-details');}
     public function coloring_book_explore_categories_content_details(){return view('live.coloringbook.dashboard.explore.explore-categories-content-details');}
 
+
+    public function color_pallet_dashboard(){return view('live.color-pallets.color-pallets-dashboard');}
+    public function all_pallets(){return view('live.color-pallets.all-pallets');}
+    public function solid_pallet_ui(){return view('live.color-pallets.solid-pallet-ui');}
+    public function daily_color_pallet_ui(){return view('live.color-pallets.dailycolor-pallet-ui');}
+    public function create_pallet(){return view('live.color-pallets.create-pallet');}
+
     public function changelog(){return view('live.pages.changelog');}
     public function changelog_app(){return view('live.pages.changelog_app');}
     public function privacy_policy(){return view('live.pages.privacy_policy');}

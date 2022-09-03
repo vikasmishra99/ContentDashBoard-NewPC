@@ -22,11 +22,16 @@
                     <li class="nav-item"><a class="nav-link" href="{{route('live.coloringbook.users.blocked-users')}}" ><span class="nav-link-title">Blocked Users</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('live.coloringbook.users.deleted-users')}}" ><span class="nav-link-title">Deleted Users</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="#" ><span class="nav-link-title">Feedback</span></a></li>
+                    <div class="hr-text text-google">Color Pallets Dashboard</div>
+                    <li class="nav-item "><a class="nav-link" href="{{route('live.color-pallets.color-pallets-dashboard')}}" ><span class="nav-link-title">Color Pallet Dashboard</span></a></li>
+                    <li class="nav-item "><a class="nav-link" href="{{route('live.color-pallets.all-pallets')}}" ><span class="nav-link-title">All Pallets</span></a></li>
+                    <li class="nav-item "><a class="nav-link" href="{{route('live.color-pallets.create-pallet')}}" ><span class="nav-link-title">Create Pallets</span></a></li>
                     <div class="hr-text text-google">Other Options</div>
-                    <li class="nav-item "><a class="nav-link" href="#" ><span class="nav-link-title">Color Pallet Dashboard</span></a></li>
                     <li class="nav-item "><a class="nav-link" href="#" ><span class="nav-link-title">Coloring Book Effects</span></a></li>
                     <li class="nav-item "><a class="nav-link" href="#" ><span class="nav-link-title">Coloring Book Filters</span></a></li>
+                    <div class="hr-text text-google">Legals</div>
                     <li class="nav-item"><a class="nav-link" href="{{route('live.pages.changelog')}}" ><span class="nav-link-title">Change Log</span></a></li>
+                    <div class="hr-text text-google">Other Actions</div>
                     <li class="nav-item "><a class="nav-link" href="#" ><span class="btn btn-danger">CLEAR CACHE</span></a></li>
 
                 </ul>
