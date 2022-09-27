@@ -49,7 +49,6 @@
         </div>
         <div class="page-body">
             <div class="container-xl">
-
                 <div class="row row-cards">
                     <!-- Add color items-->
                     <div class="col-md-6 col-xl-4">
@@ -66,14 +65,18 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="card-actions">
-                                            <a href="#" class="btn btn-primary text-white" data-bs-toggle="modal"
-                                               data-bs-target="#paste-color-items">Add Color Items</a>
-                                        </div>
                                     </div>
                                     <div class="card-body">
                                         <div class="row ">
                                             <div class="card-title">No Color Items added. Tap Add Color Items to add items</div>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="d-flex">
+                                            <a href="#" class="btn btn-link" data-bs-toggle="modal"
+                                               data-bs-target="#edit-pallet-modal-items">Edit pallet details</a>
+                                                <a href="#" class="btn btn-primary text-white" data-bs-toggle="modal"
+                                                   data-bs-target="#paste-color-items">Add Color Items</a>
                                         </div>
                                     </div>
                                 </div>
@@ -96,10 +99,6 @@
                                                     <div class="card-subtitle text-white">Pallet Type : color</div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="card-actions">
-                                            <a href="#" class="btn btn-primary text-white" data-bs-toggle="modal"
-                                               data-bs-target="#paste-color-items">Add Color Items</a>
                                         </div>
                                     </div>
                                     <div class="card-body">
@@ -137,12 +136,19 @@
 
                                         </div>
                                     </div>
+                                    <div class="card-footer">
+                                        <div class="d-flex">
+                                            <a href="#" class="btn btn-link" data-bs-toggle="modal"
+                                               data-bs-target="#edit-pallet-modal-items">Edit pallet details</a>
+                                            <a href="#" class="btn btn-primary text-white" data-bs-toggle="modal"
+                                               data-bs-target="#paste-color-items">Add Color Items</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
                         </div>
                     </div>
-
 
                     <!-- First Category View Start Here-->
                     <div class="col-md-6 col-xl-4">
@@ -158,10 +164,6 @@
                                                     <div class="card-subtitle text-white">Pallet Type : color</div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="card-actions">
-                                            <a href="#" class="btn btn-primary text-white" data-bs-toggle="modal"
-                                               data-bs-target="#paste-color-items">Add Color Items</a>
                                         </div>
                                     </div>
                                     <div class="card-body">
@@ -185,12 +187,19 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="card-footer">
+                                        <div class="d-flex">
+                                            <a href="#" class="btn btn-link" data-bs-toggle="modal"
+                                               data-bs-target="#edit-pallet-modal-items">Edit pallet details</a>
+                                            <a href="#" class="btn btn-primary text-white" data-bs-toggle="modal"
+                                               data-bs-target="#paste-color-items">Add Color Items</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
                         </div>
                     </div>
-
 
                 </div>
             </div>
@@ -201,6 +210,7 @@
 @include('live.includes.footer')
 <!-- Libs JS -->
 @include('live.color-pallets.modal.create-pallet-modal')
+@include('live.color-pallets.modal.edit-pallet-modal')
 @include('live.color-pallets.modal.paste-json-modal')
 @include('live.includes.bottom-scripts')</body>
 </html>

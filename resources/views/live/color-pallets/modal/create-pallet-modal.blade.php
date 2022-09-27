@@ -21,14 +21,23 @@
                         <div class="mb-3">
                             <label class="form-label">Select pallet Type</label>
                             <select type="text" class="form-select" placeholder="Select a trade type" id="select-trade-type" value="">
-                                <option value="1">color</option>
-                                <option value="2">gradient</option>
+                                <option value="1">Color</option>
+                                <option value="2">Gradient</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Select Pallet Trade Type</label>
+                            <select type="text" class="form-select" placeholder="Select a trade type" id="select-trade-type" value="">
+                                <option value="1">Enter Price</option>
+                                <option value="2">ADS</option>
+                                <option value="2">COIN</option>
                             </select>
                         </div>
                         <div class="mb-3">
                             <label class="form-label required">Enter Price (INR) for this pallet</label>
                             <input type="text" class="form-control" name="example-required-input" placeholder="Enter Price for this pallet...">
                         </div>
+
                     </div>
                 </div>
             </div>

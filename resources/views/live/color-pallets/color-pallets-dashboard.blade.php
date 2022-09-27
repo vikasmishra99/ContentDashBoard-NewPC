@@ -36,7 +36,7 @@
         </div>
         <div class="page-body">
             <div class="container-xl">
-              @include('live.coloringbook.dashboard.colorbook-analytics')
+              @include('live.color-pallets.color-pallet-analytics')
             </div>
         </div>
         @include('live.includes.footer')

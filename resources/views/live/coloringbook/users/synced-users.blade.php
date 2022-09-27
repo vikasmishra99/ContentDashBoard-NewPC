@@ -28,9 +28,9 @@
                     <div class="col-md-auto ms-auto d-print-none">
                         <div class="btn-list">
                             <span class="d-none d-sm-inline"><a
-                                        href="{{route('live.coloringbook.authentication.sign-in')}}"
-                                        class="btn btn-white" data-bs-toggle="modal"
-                                        data-bs-target="#logout-modal">Logout</a></span>
+                                    href="{{route('live.coloringbook.authentication.sign-in')}}"
+                                    class="btn btn-white" data-bs-toggle="modal"
+                                    data-bs-target="#logout-modal">Logout</a></span>
 
                         </div>
                     </div>
@@ -88,7 +88,9 @@
 
                                     <tbody>
                                     <tr>
-                                        <td><span class="text-muted">001401</span></td>
+                                        <td><span class="text-muted"><a
+                                                    href="{{route('live.coloringbook.analytics.users.single-user-profile')}}">001401</a></span>
+                                        </td>
                                         <td><span class="text-muted">76HGH78KJ</span></td>
                                         <td>SAMSUNG A51</td>
                                         <td>Carlson Limited</td>
@@ -98,18 +100,20 @@
                                         <td><span class="badge bg-warning me-1"></span> 31-05-2022 00:02AM</td>
                                         <td>25</td>
                                         <td>
-                                            <button class="btn btn-azure">View Content</button>
+                                            <a class="btn btn-azure" href="{{route('live.coloringbook.analytics.users.single-user-profile')}}"> View Content</a>
                                         </td>
                                         <td class="text-end"><span class="dropdown"><button
-                                                        class="btn dropdown-toggle align-text-top"
-                                                        data-bs-boundary="viewport"
-                                                        data-bs-toggle="dropdown">Actions
+                                                    class="btn dropdown-toggle align-text-top"
+                                                    data-bs-boundary="viewport"
+                                                    data-bs-toggle="dropdown">Actions
                                                 </button>
                               <div class="dropdown-menu dropdown-menu-end">
-                                  <a class="dropdown-item" href="#" data-bs-target="#delete-user-alert" data-bs-toggle="modal">
+                                  <a class="dropdown-item" href="#" data-bs-target="#delete-user-alert"
+                                     data-bs-toggle="modal">
                                       Delete User
                                   </a>
-                                  <a class="dropdown-item" href="#" data-bs-target="#block-user-alert" data-bs-toggle="modal">
+                                  <a class="dropdown-item" href="#" data-bs-target="#block-user-alert"
+                                     data-bs-toggle="modal">
                                       Block User
                                   </a>
                               </div>
@@ -119,7 +123,9 @@
 
 
                                     <tr>
-                                        <td><span class="text-muted">001401</span></td>
+                                        <td><span class="text-muted"><a
+                                                    href="{{route('live.coloringbook.analytics.users.single-user-profile')}}">001401</a></span>
+                                        </td>
                                         <td><span class="text-muted">76HGH78KJ</span></td>
                                         <td>SAMSUNG A51</td>
                                         <td>Carlson Limited</td>
@@ -129,26 +135,26 @@
                                         <td><span class="badge bg-warning me-1"></span> 31-05-2022 00:02AM</td>
                                         <td>25</td>
                                         <td>
-                                            <button class="btn btn-azure">View Content</button>
+                                            <a class="btn btn-azure" href="{{route('live.coloringbook.analytics.users.single-user-profile')}}"> View Content</a>
                                         </td>
                                         <td class="text-end"><span class="dropdown"><button
-                                                        class="btn dropdown-toggle align-text-top"
-                                                        data-bs-boundary="viewport"
-                                                        data-bs-toggle="dropdown">Actions
+                                                    class="btn dropdown-toggle align-text-top"
+                                                    data-bs-boundary="viewport"
+                                                    data-bs-toggle="dropdown">Actions
                                                 </button>
                               <div class="dropdown-menu dropdown-menu-end">
-                                  <a class="dropdown-item" href="#" data-bs-target="#delete-user-alert" data-bs-toggle="modal">
+                                  <a class="dropdown-item" href="#" data-bs-target="#delete-user-alert"
+                                     data-bs-toggle="modal">
                                       Delete User
                                   </a>
-                                  <a class="dropdown-item" href="#" data-bs-target="#block-user-alert" data-bs-toggle="modal">
+                                  <a class="dropdown-item" href="#" data-bs-target="#block-user-alert"
+                                     data-bs-toggle="modal">
                                       Block User
                                   </a>
                               </div>
                             </span>
                                         </td>
                                     </tr>
-
-
 
 
                                     </tbody>

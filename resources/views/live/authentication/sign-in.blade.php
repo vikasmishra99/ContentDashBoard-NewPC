@@ -12,7 +12,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>The X Company - Dashboard SignIn</title>
+    <title>NextLeap Technologies - Dashboard SignIn</title>
     @include('live.includes.top-scripts')
 </head>
 <body  class=" border-top-wide border-primary d-flex flex-column">
@@ -23,6 +23,7 @@
         </div>
         <form class="card card-md" action="../" method="get" autocomplete="off">
             <div class="card-body">
+                <h2 class="card-header text-center mb-4">DASHBOARD MANAGER</h2>
                 <h2 class="card-title text-center mb-4">Login to your account</h2>
                 <div class="mb-3">
                     <label class="form-label">Email address</label>
